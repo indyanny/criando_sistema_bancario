@@ -5,7 +5,6 @@ menu = ("Menu")
 [3] Deposito
 [0] Sair
 
-=> ---
 
 saldo = 0
 limite = 1500
