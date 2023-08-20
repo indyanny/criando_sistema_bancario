@@ -1,14 +1,14 @@
-menu = ("Menu")
+menu = ("[1]Saque [2]Extrato [3]Depósito [0]Sair \n Informe a opção desejada:")
 
-[1] Saque 
-[2] Extrato
-[3] Deposito
-[0] Sair
+[1] == "Saque" 
+[2] == "Extrato"
+[3] == "Deposito"
+[0] == "Sair"
 
 
 saldo = 0
 limite = 1500
-extrato = "extrato"
+extrato = "saldo"
 numero_saques = 3
 LIMITE_SAQUE = 1500
 
