@@ -7,7 +7,7 @@ menu = ("[1]Saque [2]Extrato [3]Depósito [0]Sair \n Informe a opção desejada:
 
 
 saldo = 0
-limite = 1500
+limite = 500
 extrato = "saldo"
 numero_saques = 3
 LIMITE_SAQUE = 1500
