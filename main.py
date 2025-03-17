@@ -10,7 +10,7 @@ saldo = 0
 limite = 500
 extrato = ""
 numero_saques = 4
-LIMITE_SAQUE = 2000
+limite_saque = 2000
 
 while True:
     opcao = input(menu)
@@ -32,7 +32,7 @@ while True:
 
         excedeu_limite = valor > limite
 
-        excedeu_saques = numero_saques = LIMITE_SAQUE
+        excedeu_saques = numero_saques = limite_saque
 
         if excedeu_saldo:
             print("Operação falhou! Saldo insuficiente!")
